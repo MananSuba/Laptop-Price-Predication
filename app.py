@@ -191,7 +191,7 @@ with col2:
             
         except Exception as e:
             st.error(f"Prediction failed: {str(e)}")
-            st.info("Please check your model files and input values.")
+            st.info("Please check your m    odel files and input values.")
 
 # Footer
 st.markdown("---")
